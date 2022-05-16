@@ -33,7 +33,7 @@ body {
 
 .country-info__flag {
   width: 50px;
-  height: 50px;
+  height: 35px;
   margin: 10px 10px -10px 10px;
 }
 
@@ -70,7 +70,7 @@ body {
 }
 .country-list__flag {
   width: 40px;
-  height: 40px;
+  height: 25px;
 }
 .country-list__name {
   margin-left: 10px;

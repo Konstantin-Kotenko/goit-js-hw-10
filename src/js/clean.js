@@ -1,10 +1,7 @@
-import getRefs from './refs';
-const refs = getRefs();
+import { refs } from './refs';
 
-const cleanCountryMarkup = () => {
+export const cleanCountryMarkup = () => {
   refs.countryBox.innerHTML = '';
   refs.countryList.innerHTML = '';
   return;
 };
-
-export { cleanCountryMarkup };
